@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    margin:0;
+    padding:0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -14,6 +29,8 @@ body{
 }
 
 .footer{
+    display:flex;
+    justify-content: center;
     background-color: #1F2937;
-    color: #E5E7EB
+    color: #E5E7EB;
 }
