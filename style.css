@@ -21,6 +21,16 @@ body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+.header{
+    display:flex;
+    gap:16px;
+    margin: 16px 200px;
+}
+
+.header p{
+    margin-right: auto;
+}
+
 
 .main{
     display: flex;
