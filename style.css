@@ -21,6 +21,10 @@ body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+.top{
+    background-color: #1F2937;
+}
+
 .header{
     display:flex;
     gap:16px;
