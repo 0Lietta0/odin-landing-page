@@ -23,6 +23,7 @@ body{
 
 .top{
     background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 .header{
@@ -33,8 +34,16 @@ body{
 
 .header p{
     margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: none;
 }
 
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
 
 .main{
     display: flex;
