@@ -46,6 +46,33 @@ a{
     font-size: 18px;
 }
 
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.description{
+
+}
+
+.description p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;    
+}
+
+.image-container{
+    background-color: rgb(161, 165, 167);
+    color: #E5E7EB;
+    height: 250px;
+    width: 500px;
+}
+
 .main{
     display: flex;
     flex-direction: column;
