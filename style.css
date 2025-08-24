@@ -16,20 +16,18 @@ html {
 }
 
 body{
-    display: flex;
-    flex-direction: column;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .top{
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 16px 200px;
 }
 
 .header{
     display:flex;
     gap:16px;
-    margin: 16px 200px;
     align-items: center;
 }
 
@@ -54,7 +52,7 @@ h1{
 
 .description{
     display:flex;
-    margin: 100px 200px;
+    margin: 100px 0;
     flex-wrap: wrap;
     gap: 32px;
 }
@@ -88,10 +86,9 @@ button{
 }
 
 .main{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+
 }
+
 
 .footer{
     display:flex;
