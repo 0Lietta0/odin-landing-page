@@ -128,6 +128,22 @@ button{
     border-radius: 8px;
 }
 
+.quote{
+    background-color: #E5E7EB;
+}
+
+blockquote{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 24px;
+}
+
 
 .footer{
     display:flex;
